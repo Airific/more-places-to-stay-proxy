@@ -19,6 +19,9 @@
   "homepage": "https://github.com/Airific/more-places-to-stay-proxy#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "http-proxy-middleware": "^1.0.5",
     "nodemon": "^2.0.4"
-  }
+  },
+  "proxy": "http://localhost:3005"
 }
