@@ -1,0 +1,24 @@
+{
+  "name": "more-places-proxy",
+  "version": "1.0.0",
+  "description": "moreplacesproxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airific/more-places-to-stay-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Airific/more-places-to-stay-proxy/issues"
+  },
+  "homepage": "https://github.com/Airific/more-places-to-stay-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
