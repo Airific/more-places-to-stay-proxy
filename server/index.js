@@ -11,28 +11,28 @@ app.use('/:id', express.static(path.join(__dirname, '/../public')));
   app.use(
     '/listings/gallery/:id',
     createProxyMiddleware({
-      target: 'http://localhost:3001',
+      target: 'http://3.101.88.230',
       changeOrigin: true,
     })
   );
   app.use(
     '/listings/header/:id',
     createProxyMiddleware({
-      target: 'http://localhost:3001',
+      target: 'http://3.101.88.230',
       changeOrigin: true,
     })
   );
   app.use(
     '/listings/moreplaces/:id',
     createProxyMiddleware({
-      target: 'http://localhost:3002',
+      target: 'http://3.101.118.54',
       changeOrigin: true,
     })
   );
   app.use(
     '/listings/reviews/:id',
     createProxyMiddleware({
-      target: 'http://localhost:3003',
+      target: 'http://3.89.20.244',
       changeOrigin: true,
     })
   );
